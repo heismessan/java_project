@@ -1,16 +1,27 @@
 D:\Apprendre\Java
 
 1- LE LANGAGE JAVA:
-Java est crée en 1995 par l'entreprise Sun Microsystems et est à la version 22.
+Java est crée en 1995 par l'entreprise Sun Microsystems et est à la version 25.
 Caractéristique:
 -langage compilé:ce qui veut dire que le code écrit doit subir une transformation avant de pouvoir être exécuté.  
 le code Java est compilé et l’on obtient du bytecode. Le bytecode est ensuite exécutable par une Java Virtual Machine (JVM). 
 Et un JDK est utiliser pour la compilation.
 
-
+Le caractère unicode est juste une lettre "A/B/..."
 Bases numériques: décimale     (10 -> 0 à 9)
                   binaire      (2 -> 1 et 0)  = 0b110001  (0b pour indiquer que c'est le biniare qui suit)
                   octale       (8 -> 0 à 7)   = 0755
                   hexadecimale  (16 -> 0 à F) = 0xAF55
+\n : retour à la ligne
+\b : retour arrière
+\r : retour chariot
+\t : tabulation
+
 
 le mot clé final permet de créer des constants: "final int NULBER = 24;" impossible de modifier par après.
+Un attribut est une variable appartenant à une classe 
+méthode = fonction dans les autres languages
+
+
+DECLARATION DE VARIABLE
+Une variable tient sa porté dans l'endroit où elle a été déclarer
