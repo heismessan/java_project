@@ -25,3 +25,20 @@ méthode = fonction dans les autres languages
 
 DECLARATION DE VARIABLE
 Une variable tient sa porté dans l'endroit où elle a été déclarer
+
+LES OPERATEURS
+= Affectation, + concaténation et addition, - soustration, * multiplication, / division, % modulo
+
+les opérateurs de comparaison:
+    Egalité: ==
+    Typage(vérifier le type): === 
+    Différent: !=
+    Inférieur: < / Inférieur ou égal à: <=
+    Supéreiur: > / Supéreiur ou égal à: >=  
+    Inverse ou Négation: !
+    +=, -=, *=, ----> A = A + 12 -----> A += 12
+
+    A++ post incrémentation, ++A pré incrémentation
+    A-- post décrémentation, --A pré décrémentation
+
+LES CONDITIONS
