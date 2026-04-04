@@ -42,3 +42,71 @@ les opérateurs de comparaison:
     A-- post décrémentation, --A pré décrémentation
 
 LES CONDITIONS
+    public class App 
+    {
+        public static void main(String[] args)
+        {
+            int option = 16;
+            // if(value == 24 || value == 16)
+            //     System.out.println(value + " est la vraie valeur");
+
+            Switch(option)
+            {
+                case 12:
+                    System.out.println("c'est 12");
+                    break;
+                case 16: 
+                    System.out.println("c'est 16");
+                    break;
+                default: 
+                System.out.println("non trouvé");
+            }
+        }
+    }
+
+LES BOUCLES
+    "continue" => Indique de revenir à la boucle sans exécuté la suite 
+    public class App 
+{
+    public static void main(String[] args)
+    {
+        int i = 0;
+        while(i != 10 || i!= 5)
+        {
+            i++
+            
+            if(i == 4)
+                continue;
+
+            System.out.println(i);
+        
+        }
+
+        // do while
+        do{
+            i++
+            
+            if(i == 4)
+                continue;
+
+            System.out.println(i);
+        }
+        while(i !=10 || i !=5);
+        //for
+        int i;
+        for(i = 0; i !=10; i++)
+        {
+            System.out.println("Incrémentation de l'itération à " + i);
+        }
+    }
+}
+
+
+
+LES CLASSES
+En Java, une classe est un modèle ou plan de construction qui définit :
+Les attributs (variables) : les données ou caractéristiques de l’objet.
+Les méthodes (fonctions) : les actions ou comportements que l’objet peut effectuer.
+Une classe ne fait rien par elle-même : elle sert à créer des objets (instances) qui auront ces attributs et comportements.
+
+Un constructeur est une méthode permettant de construire notre objet
