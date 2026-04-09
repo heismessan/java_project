@@ -108,5 +108,94 @@ En Java, une classe est un modèle ou plan de construction qui définit :
 Les attributs (variables) : les données ou caractéristiques de l’objet.
 Les méthodes (fonctions) : les actions ou comportements que l’objet peut effectuer.
 Une classe ne fait rien par elle-même : elle sert à créer des objets (instances) qui auront ces attributs et comportements.
+Un constructeur est une méthode permettant de construire notre objet.
+// App.java
 
-Un constructeur est une méthode permettant de construire notre objet
+public class App
+{
+    public static void main(String [] args)
+    {
+        Cat miaou = new Cat();
+        Cat miaou2 = new Cat();
+    }
+}
+
+// Cat.java 
+
+public class Cat
+{
+    public Cat()
+    {
+        System.out.println("Je viens de créer: " + this);
+    }
+}
+
+LES ATTRIBUTS
+Un attribut est une variable qui appartient à une classe
+//Cat.java 
+public class Cat
+{
+    public Cat(String Name, int Age)
+    {
+        this.mName = Name;
+        this.mAge = Age;
+        System.out.println("Je viens de créer: " + this.mName + " qui a " + this.mAge + " ans.");
+    }
+    private String mName;
+    private int mAge;
+}
+// App.java 
+public class App
+{
+    public static void main(String [] args)
+    {
+        Cat miaou = new Cat("miloou", 2);
+        Cat miaou2 = new Cat("spartakus", 1);
+    }
+}
+
+LES METHODES
+public class App
+{
+    public static void main(String [] args)
+    {
+        loadwindow();
+    }
+    public static loadwindow()
+    {
+        //du code...
+    }
+}
+Méthode avec un  retour
+public class App
+{
+    public static void main(String [] args)
+    {
+        System.out.println(numbre());
+    }
+   public static int numbre()
+   {
+    return 2;
+   }
+}
+retourne "int" à cause de public static 'int'... et si la méthode ne retourne rien on met 'void'avant le
+nom de la méthode.
+Surcharge de méthode c'est avoir des méthode de même nom avec des paramètres différents(pas même type de données)
+public class App
+{
+    public static void main(String [] args)
+    {
+        System.out.println(sum(2, 3));
+        System.out.println(sum(5.2, 3.4));
+    }
+   public static int sum(int a, int b)
+   {
+    return a + b;
+   }public static float sum(float a, float b)
+   {
+    return a + b;
+   }
+}
+
+L'ENCAPSULATION DES DONNEES 
+
